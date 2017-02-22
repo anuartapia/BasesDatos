@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class PruebaHospital {
 	public static void main(String[] args) {
+		Dueno c;
 		boolean bandera;
 		int opcion = 0;
 		Scanner input = new Scanner(System.in);
