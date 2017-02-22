@@ -13,19 +13,46 @@ public class Persona {
 	protected String nombre;
 	protected int edad;
 	protected char sexo;
-	protected Scanner input;
+	protected String domicilio;
+	protected String correo;
+    protected String telefono;
+    // protected String foto;
+    protected Scanner input;
 
-	/**
-	 * Constructor por parametros
-	 * 
-	 * @param nombre
-	 * @param edad
-	 * @param sexo
-	 */
-	public Persona(String nombre, int edad, char sexo) {
-		this.nombre = nombre;
-		this.edad = edad;
-		this.sexo = sexo;
+    /**
+     * Constructor por parametros
+     *
+     * @param nombre
+     * @param edad
+     * @param sexo
+     */
+    public Persona(String nombre, int edad, char sexo) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sexo = sexo;
+    }
+	public String getDomicilio() {
+		return domicilio;
+	}
+
+	public void setDomicilio(String domicilio) {
+		this.domicilio = domicilio;
+	}
+
+	public String getCorreo() {
+		return correo;
+	}
+
+	public void setCorreo(String correo) {
+		this.correo = correo;
+	}
+
+	public String getTelefono() {
+		return telefono;
+	}
+
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
 	}
 
 	/**
