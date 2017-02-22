@@ -78,4 +78,15 @@ public class Taxi {
     public void setPlaca(String placa) {
         this.placa = placa;
     }
+
+    @Override
+    public String toString() {
+        return modelo +
+                "," + marca +
+                "," + ano +
+                "," + cilindros +
+                "," + puertas +
+                "," + refaccion +
+                "," + placa;
+    }
 }

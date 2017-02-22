@@ -16,4 +16,9 @@ public class Dueno extends Persona {
     public void setRfc(String rfc) {
         this.rfc = rfc;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "," + this.rfc ;
+    }
 }

@@ -16,4 +16,9 @@ public class Chofer extends Persona {
     public void setNum_licencia(int num_licencia) {
         this.num_licencia = num_licencia;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "," + this.num_licencia ;
+    }
 }
