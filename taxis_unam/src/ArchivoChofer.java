@@ -31,7 +31,7 @@ public class ArchivoChofer extends ManipulaArchivo {
      * @return arreglo de Chofer con los datos del archivo
      * @throws ArchivoLecturaNoCreadoException
      */
-    public Chofer[] leeChofers() throws ArchivoLecturaNoCreadoException {
+    public Chofer[] leeChoferes() throws ArchivoLecturaNoCreadoException {
         String lineas[] = super.leeArchivo();
         Chofer choferes[] = new Chofer[lineas.length];
         for (int i = 0; i < choferes.length; i++) {
