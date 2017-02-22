@@ -1,0 +1,5 @@
+asda,312,F,12,aldasda
+lalo,25,M,12,lalo
+Paco,20,M,12,Otorrino
+null
+null
