@@ -2,9 +2,7 @@
  * ArchivoTaxi.java Clase encargada de leer/escribir objetos de la clase
  * Taxi
  *
- * @author Eduardo Castro
- * @version Noviembre 2016
- * @see ManipulaArchivo
+ * @author Jessi, Anuar
  */
 public class ArchivoTaxi extends ManipulaArchivo {
     public ArchivoTaxi() {

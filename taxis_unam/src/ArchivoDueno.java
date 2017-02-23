@@ -2,9 +2,7 @@
  * ArchivoDueno.java Clase encargada de leer/escribir objetos de la clase
  * Dueno
  *
- * @author Eduardo Castro
- * @version Noviembre 2016
- * @see ManipulaArchivo
+ * @author Jessi, Anuar
  */
 public class ArchivoDueno extends ManipulaArchivo {
     public ArchivoDueno() {

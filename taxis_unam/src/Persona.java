@@ -8,6 +8,11 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Modela una Persona
+ *
+ * @author Jessi, Anuar
+ */
 public class Persona {
 	// atributos de la clase padre
 	protected String nombre;

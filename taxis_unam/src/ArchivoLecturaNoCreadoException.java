@@ -1,11 +1,11 @@
 /**
  * ArchivoLecturaNoCreadoException
- * Clase que implementa a una escepcion para cuando un archivo para leer no sea encontrado
- * @author Eduardo Castro
- * @version Noviembre 2016
+ * Clase que implementa a una excepcion para cuando un archivo para leer no sea encontrado
+ *
+ * @author Jessi, Anuar
  */
 public class ArchivoLecturaNoCreadoException extends Exception {
-	public ArchivoLecturaNoCreadoException(String message){
-		super(message);
-	}
+    public ArchivoLecturaNoCreadoException(String message) {
+        super(message);
+    }
 }

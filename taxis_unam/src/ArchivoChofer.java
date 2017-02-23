@@ -2,9 +2,7 @@
  * ArchivoChofer.java Clase encargada de leer/escribir objetos de la clase
  * Chofer
  *
- * @author Eduardo Castro
- * @version Noviembre 2016
- * @see ManipulaArchivo
+ * @author Jessi, Anuar
  */
 public class ArchivoChofer extends ManipulaArchivo {
     public ArchivoChofer() {

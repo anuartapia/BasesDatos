@@ -1,6 +1,12 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Clase que otorga una interfaz de linea de comandos para probar
+ * los métodos de la clase BaseDeTaxis
+ *
+ * @author Jessi, Anuar
+ */
 public class PruebaBaseDeTaxis {
     public static void main(String[] args) {
         Dueno c;

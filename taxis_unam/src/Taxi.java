@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 /**
- * Created by etapia on 21/02/17.
+ * Modela un Taxi
+ *
+ * @author Jessi, Anuar
  */
 public class Taxi {
     private String modelo;

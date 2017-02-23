@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 /**
- * Created by etapia on 21/02/17.
+ * Modela un Dueño
+ *
+ * @author Jessi, Anuar
  */
 public class Dueno extends Persona {
     private String rfc;

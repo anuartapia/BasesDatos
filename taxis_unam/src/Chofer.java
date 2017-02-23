@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 /**
- * Created by etapia on 21/02/17.
+ * Modela un Chofer
+ *
+ * @author Jessi, Anuar
  */
 public class Chofer extends Persona {
     private String num_licencia;
@@ -35,6 +37,6 @@ public class Chofer extends Persona {
 
     @Override
     public String toString() {
-        return super.toString() + "," + this.num_licencia ;
+        return super.toString() + "," + this.num_licencia;
     }
 }

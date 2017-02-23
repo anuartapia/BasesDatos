@@ -1,12 +1,11 @@
 /**
- * ExcesoMedicoException.java
- * Clase que implementa escepcion para cuando no se pueda guardar a otro medico
- * @author lalo
- * @version Noviembre 2016
+ * Clase que implementa excepcion para cuando no se pueda guardar a otro Chofer
+ *
+ * @author Jessi, Anuar
  */
-public class ExcesoChoferException extends Exception{
+public class ExcesoChoferException extends Exception {
 
-    public ExcesoChoferException(String message){
+    public ExcesoChoferException(String message) {
         super(message);
     }
 

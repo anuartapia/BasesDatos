@@ -1,6 +1,8 @@
 /**
  * BaseDeTaxis.java
- * Clase encargada  de modelar el funcionamiento de registro de choferes y duenos de un BaseDeTaxis
+ * Clase encargada  de modelar el funcionamiento de registro de choferes y duenos y taxis de un BaseDeTaxis
+ *
+ * @author Jessi, Anuar
  */
 
 public class BaseDeTaxis {
