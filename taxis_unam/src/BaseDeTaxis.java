@@ -4,6 +4,9 @@
  */
 
 public class BaseDeTaxis {
+    private static final int MAX_VALUE_DUENOS = 10;
+    private static final int MAX_VALUE_CHOFERES = 10;
+    private static final int MAX_VALUE_TAXIS = 10;
     private Dueno duenos[];
     private Chofer choferes[];
     private Taxi taxis[];
@@ -12,9 +15,9 @@ public class BaseDeTaxis {
      * Leeemos la información que hay guardada en los archivos y la cargamos
      */
     public BaseDeTaxis() {
-        duenos = new Dueno[Integer.MAX_VALUE];
-        choferes = new Chofer[Integer.MAX_VALUE];
-        taxis = new Taxi[Integer.MAX_VALUE];
+        duenos = new Dueno[BaseDeTaxis.MAX_VALUE_DUENOS];
+        choferes = new Chofer[BaseDeTaxis.MAX_VALUE_CHOFERES];
+        taxis = new Taxi[BaseDeTaxis.MAX_VALUE_TAXIS];
         ArchivoDueno archivoDueno = new ArchivoDueno();
         ArchivoChofer archivoChofer = new ArchivoChofer();
         ArchivoTaxi archivoTaxi = new ArchivoTaxi();
