@@ -52,7 +52,7 @@ public class ArchivoChofer extends ManipulaArchivo {
         String nombre = linea[0];
         int edad = Integer.parseInt(linea[1]);
         char sexo = linea[2].charAt(0);
-        int numLicencia = Integer.parseInt(linea[3]);
+        String numLicencia = linea[3];
         return new Chofer(nombre, edad, sexo, numLicencia);
     }
 
