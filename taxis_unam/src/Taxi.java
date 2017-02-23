@@ -23,6 +23,42 @@ public class Taxi {
         this.placa = placa;
     }
 
+    public Taxi() {
+        input = new Scanner(System.in);
+        System.out.println("Ingresa modelo.");
+        this.modelo = input.nextLine();
+        System.out.println("Ingresa marca.");
+        this.marca = input.nextLine();
+        System.out.println("Ingresa año.");
+        this.ano = Integer.parseInt(input.nextLine());
+        System.out.println("Ingresa cilindros.");
+        this.cilindros = Integer.parseInt(input.nextLine());
+        System.out.println("Ingresa puertas.");
+        this.puertas = Integer.parseInt(input.nextLine());
+        System.out.println("Ingresa refacción.");
+        this.refaccion = (input.nextLine()).equals("1") ? true : false;
+        System.out.println("Ingresa placa.");
+        this.placa = input.nextLine();
+    }
+
+    public void edita() {
+        input = new Scanner(System.in);
+        System.out.println("Ingresa modelo.");
+        this.modelo = input.nextLine();
+        System.out.println("Ingresa marca.");
+        this.marca = input.nextLine();
+        System.out.println("Ingresa año.");
+        this.ano = Integer.parseInt(input.nextLine());
+        System.out.println("Ingresa cilindros.");
+        this.cilindros = Integer.parseInt(input.nextLine());
+        System.out.println("Ingresa puertas.");
+        this.puertas = Integer.parseInt(input.nextLine());
+        System.out.println("Ingresa refacción.");
+        this.refaccion = (input.nextLine()).equals("1") ? true : false;
+        System.out.println("Ingresa placa.");
+        this.placa = input.nextLine();
+    }
+
     public String getModelo() {
         return modelo;
     }
